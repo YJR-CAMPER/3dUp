@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
+    public float health = 100f;
     public float maxHealth = 100f;
     public float decayRate = 5f;
     private float currentHealth;
@@ -37,5 +38,10 @@ public class HealthSystem : MonoBehaviour
     {
         IsDead = true;
         OnDeath?.Invoke();
+    }
+
+    public void Heal(float amount)
+    {
+        health = Mathf.Min(health + amount, maxHealth);
     }
 }

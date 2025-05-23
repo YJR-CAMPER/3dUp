@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ad37fd636c67f4c999d7b5942ffaa6, type: 3}
+  m_Name: HealthRegen
+  m_EditorClassIdentifier: 
+  itemName: 
+  icon: {fileID: 0}
+  duration: 5
+  effectValue: 20
+  effectType: 2
+  prefab: {fileID: 5111273714338933725, guid: 6daba2168ac5f9a43877b2a5c3054e9e, type: 3}
+  material: {fileID: 2100000, guid: dccc66743bae16b4ba89cb037aca9690, type: 2}
